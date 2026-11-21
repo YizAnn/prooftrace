@@ -1,0 +1,17 @@
+{
+  "name": "prooftrace",
+  "version": "4.4.0",
+  "private": true,
+  "description": "ProofTrace 公开资料核验与 AI 解析工作台（本机模式 / 公网访客模式）",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "start:local": "node server/run_local.js",
+    "test": "node tests/server_startup_test.js",
+    "test:visitor": "node tests/public_visitor_smoke_test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

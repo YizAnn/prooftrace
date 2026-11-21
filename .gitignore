@@ -1,0 +1,7 @@
+node_modules/
+.env
+.env.*
+*.log
+.DS_Store
+# 本机 DPAPI 密钥凭据（仅 Windows 本机存在，不应进入仓库）
+secret.bin

@@ -1,0 +1,469 @@
+{
+  "dataset_id": "prooftrace_acme_case_v1",
+  "version": "1.0",
+  "compiled_date": "2026-11-21",
+  "data_notice": "学生黑客松公开资料研究案例；人工整理的公开来源事实摘要；不包含任何银行内部数据；非银行官方核验结论",
+  "input_mode": "human_curated_seed_for_real_source_evidence;not_live_scraping;not_AI_generated",
+  "company": {
+    "id": "acme-real",
+    "display_name": "中科艾科米（北京）科技有限公司",
+    "name_variants": [
+      "中科艾科米(北京)科技有限公司"
+    ],
+    "uscc": null,
+    "industry": "高端科研仪器 / 扫描探针显微镜",
+    "region": "北京市怀柔区",
+    "business_relationship": "2025年公开报道提及工行北京怀柔支行历史融资服务；当前关系未知",
+    "business_state": "historical_public_case_current_unknown",
+    "analysis_state": "待复核",
+    "scoring_state": "no_real_grade_due_to_missing_inputs",
+    "financials": null,
+    "credit_balance": null,
+    "staff_count": null,
+    "fundraising": null
+  },
+  "evidence": [
+    {
+      "id": "EV-001",
+      "source_title": "工商银行北京市分行：科技金融支持力度空前，重大科技项目全覆盖",
+      "source_url": "https://static.nfnews.com/content/202501/23/c10468234.html?enterColumnId=1288",
+      "source_publisher": "南方+（报道工行北京分行案例）",
+      "source_date": "2025-01-23",
+      "source_type": "bank_public_case",
+      "source_review_status": "page_read",
+      "independence_group": "reporter_2025_icbc_bj",
+      "project_event_id": null,
+      "fact_summary_paraphrase": "报道称工行北京怀柔支行通过专精特新信e贷向该企业发放999万元贷款，并称为其首贷银行",
+      "scope_limit": "历史报道；不证明截至今天的贷款余额、风险等级或审批规则",
+      "source_text_raw": null,
+      "source_saved_file": null,
+      "original_record_verified": false,
+      "subject_match_status": "name_matched_in_source;uscc_pending",
+      "human_review_status": "read_public_page_check_scope",
+      "generated_by_ai": false
+    },
+    {
+      "id": "EV-002",
+      "source_title": "CN109654786A / CN109654786B：一种采用闭循环制冷机的低振动降温装置",
+      "source_url": "https://patents.google.com/patent/CN109654786A/zh",
+      "source_publisher": "Google Patents（专利公开资料聚合，需以国家知识产权局最终核实）",
+      "source_date": "2019-04-19",
+      "source_type": "patent",
+      "source_review_status": "page_read",
+      "independence_group": "patent_family_CN109654786",
+      "project_event_id": null,
+      "fact_summary_paraphrase": "聚合页显示申请人/受让人为中科艾科米，2019年申请，2020-12-15授权公布B文本",
+      "scope_limit": "不得仅以一件专利推出技术领先、市场壁垒或核心产品独占性；法律状态应在官方系统复核",
+      "source_text_raw": null,
+      "source_saved_file": null,
+      "original_record_verified": false,
+      "subject_match_status": "name_matched_in_source;uscc_pending",
+      "human_review_status": "read_public_page_check_scope",
+      "generated_by_ai": false,
+      "patent_family_id": "CN201910009110.7",
+      "patent_details": {
+        "application_filing_date": "2019-01-04",
+        "A_publication_date": "2019-04-19",
+        "B_grant_publication_date": "2020-12-15",
+        "application_number": "CN201910009110.7"
+      }
+    },
+    {
+      "id": "EV-003",
+      "source_title": "CN115127247B：一种采用制冷机远端液化的超低振动闭环降温装置",
+      "source_url": "https://patents.google.com/patent/CN115127247B/fr",
+      "source_publisher": "Google Patents（专利公开资料聚合，需以国家知识产权局最终核实）",
+      "source_date": "2024-09-24",
+      "source_type": "patent",
+      "source_review_status": "page_read",
+      "independence_group": "patent_family_CN115127247",
+      "project_event_id": null,
+      "fact_summary_paraphrase": "聚合页显示申请主体中科艾科米，申请日2022-05-27，授权公告2024-09-24",
+      "scope_limit": "与2026年科研系统的技术关联需额外核实，不能自动视为技术性能的独立证据",
+      "source_text_raw": null,
+      "source_saved_file": null,
+      "original_record_verified": false,
+      "subject_match_status": "name_matched_in_source;uscc_pending",
+      "human_review_status": "read_public_page_check_scope",
+      "generated_by_ai": false,
+      "patent_family_id": "CN202210594459.3",
+      "patent_details": {
+        "application_filing_date": "2022-05-27",
+        "A_publication_date": "2022-09-30",
+        "B_grant_publication_date": "2024-09-24",
+        "application_number": "CN202210594459.3"
+      }
+    },
+    {
+      "id": "EV-004",
+      "source_title": "中国科学院金属研究所扫描隧道显微镜采购项目中标公告",
+      "source_url": "https://www.imr.cas.cn/xwzx/swgk/202407/t20240710_7214848.html",
+      "source_publisher": "中国科学院金属研究所",
+      "source_date": "2024-07-10",
+      "source_type": "public_procurement_award",
+      "source_review_status": "search_result_only",
+      "independence_group": "procurement_cas_imr_2024_stm",
+      "project_event_id": "imr_stm_procurement_2024",
+      "fact_summary_paraphrase": "公告列中科艾科米为中标供应商，中标金额415.4万元",
+      "scope_limit": "中标金额不能直接当作已实现营业收入或实际回款；网页可能需要人工访问",
+      "source_text_raw": null,
+      "source_saved_file": null,
+      "original_record_verified": false,
+      "subject_match_status": "name_matched_in_source;uscc_pending",
+      "human_review_status": "pending_original_or_detail_review",
+      "generated_by_ai": false
+    },
+    {
+      "id": "EV-005",
+      "source_title": "北京量子信息科学研究院科研仪器设备低温扫描隧道显微镜系统合同公告",
+      "source_url": "https://www.baqis.ac.cn/events/detail/?cid=2159",
+      "source_publisher": "北京量子信息科学研究院",
+      "source_date": "2024-12-10",
+      "source_type": "public_procurement_contract",
+      "source_review_status": "search_result_only",
+      "independence_group": "procurement_baqis_2024_stm",
+      "project_event_id": "baqis_stm_contract_2024",
+      "fact_summary_paraphrase": "公告列中科艾科米为供应商，合同金额512.3万元，合同签订日2024-12-10",
+      "scope_limit": "合同金额不等于当期收入、验收或回款；与同项目中标公告不得重复计数",
+      "source_text_raw": null,
+      "source_saved_file": null,
+      "original_record_verified": false,
+      "subject_match_status": "name_matched_in_source;uscc_pending",
+      "human_review_status": "pending_original_or_detail_review",
+      "generated_by_ai": false,
+      "date_interpretation": "此处按合同签订日期记录；网页实际发布时间待核，不得视作已核验的发布日期"
+    },
+    {
+      "id": "EV-006",
+      "source_title": "中国科学院生态环境研究中心无液氦光耦合超高真空低温扫描隧道显微镜采购项目中标公告",
+      "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202511/t20251119_25723971.htm",
+      "source_publisher": "中国政府采购网",
+      "source_date": "2025-11-19",
+      "source_type": "public_procurement_award",
+      "source_review_status": "search_result_only",
+      "independence_group": "procurement_cas_rcees_2025_stm",
+      "project_event_id": "rcees_stm_award_2025",
+      "fact_summary_paraphrase": "公告列中科艾科米为中标供应商，中标总价541.2万元",
+      "scope_limit": "中标不等于实际履约及回款",
+      "source_text_raw": null,
+      "source_saved_file": null,
+      "original_record_verified": false,
+      "subject_match_status": "name_matched_in_source;uscc_pending",
+      "human_review_status": "pending_original_or_detail_review",
+      "generated_by_ai": false
+    },
+    {
+      "id": "EV-007",
+      "source_title": "中国科学院上海有机化学研究所超高真空低温扫描隧道显微镜成像系统采购项目中标公告",
+      "source_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202611/t20261102_27603277.htm",
+      "source_publisher": "中国政府采购网",
+      "source_date": "2026-11-02",
+      "source_type": "public_procurement_award",
+      "source_review_status": "search_result_only",
+      "independence_group": "procurement_cas_sioc_2026_stm",
+      "project_event_id": "sioc_stm_award_2026",
+      "fact_summary_paraphrase": "公告列中科艾科米为中标供应商，Dry-SPM设备1套，中标价459.5万元",
+      "scope_limit": "反映2026年新中标线索，不等于2026年收入或现金流",
+      "source_text_raw": null,
+      "source_saved_file": null,
+      "original_record_verified": false,
+      "subject_match_status": "name_matched_in_source;uscc_pending",
+      "human_review_status": "pending_original_or_detail_review",
+      "generated_by_ai": false
+    },
+    {
+      "id": "EV-008",
+      "source_title": "怀柔这6家企业入选国家级‘小巨人’企业名单，累计22家",
+      "source_url": "https://www.ncsti.gov.cn/kjdt/yqdy/yqdt/202611/t20261113_263332.html",
+      "source_publisher": "北京国际科技创新中心网络服务平台（转载北京怀柔官微）",
+      "source_date": "2026-11-13",
+      "source_type": "government_qualification",
+      "source_review_status": "page_read",
+      "independence_group": "huairou_news_2026_11_13",
+      "project_event_id": null,
+      "fact_summary_paraphrase": "公告报道中科艾科米入选新一批国家级专精特新‘小巨人’企业名单",
+      "scope_limit": "资质是政策认定事实，不可据此直接推断当前偿债能力、专利全部质量或技术领先性",
+      "source_text_raw": null,
+      "source_saved_file": null,
+      "original_record_verified": false,
+      "subject_match_status": "name_matched_in_source;uscc_pending",
+      "human_review_status": "read_public_page_check_scope",
+      "generated_by_ai": false
+    },
+    {
+      "id": "EV-009",
+      "source_title": "A cryogen-free low temperature scanning probe microscope system for ångström-resolved spectroscopic imaging",
+      "source_url": "https://www.cps-net.org.cn/Periodical/Content/show/id/5633.do",
+      "source_publisher": "中国物理学会（介绍研究论文和团队）",
+      "source_date": "2026-03-23",
+      "source_type": "research_publication",
+      "source_review_status": "page_read",
+      "independence_group": "cps_2026_03_23_research",
+      "project_event_id": null,
+      "fact_summary_paraphrase": "报道研究团队发表了无液氦低温光耦合扫描探针显微镜系统成果，附DOI 10.1016/j.asi.2026.100011",
+      "scope_limit": "论文所述成果须检查作者与机构，不能推断全部知识产权归企业独有；行业领先地位需可比测试",
+      "source_text_raw": null,
+      "source_saved_file": null,
+      "original_record_verified": false,
+      "subject_match_status": "name_matched_in_source;uscc_pending",
+      "human_review_status": "read_public_page_check_scope",
+      "generated_by_ai": false
+    },
+    {
+      "id": "EV-010",
+      "source_title": "二维冰的超润滑现象",
+      "source_url": "https://www.cps-net.org.cn/About/Content/show/id/5003.do",
+      "source_publisher": "中国物理学会",
+      "source_date": "2024-06-14",
+      "source_type": "research_tech_transfer",
+      "source_review_status": "page_read",
+      "independence_group": "cps_2024_06_14_science_team",
+      "project_event_id": null,
+      "fact_summary_paraphrase": "中国物理学会报道，北京大学团队的国产qPlus型扫描探针显微镜样机相关核心专利技术已转让给中科艾科米，并通过校企联合研发实现商业化仪器转换。",
+      "scope_limit": "报道未提供全部转让专利编号、合同条款或权属清单。不得将此项转让与其他专利直接等同；该成果同时包含高校科研贡献。",
+      "source_text_raw": null,
+      "source_saved_file": null,
+      "original_record_verified": false,
+      "subject_match_status": "name_matched_in_source;uscc_pending",
+      "human_review_status": "read_public_page_check_scope",
+      "generated_by_ai": false
+    },
+    {
+      "id": "EV-011",
+      "source_title": "怀柔这6家企业入选国家级“小巨人”企业名单，累计22家（技术控制系统及市场地位表述）",
+      "source_url": "https://www.ncsti.gov.cn/kjdt/yqdy/yqdt/202611/t20261113_263332.html",
+      "source_publisher": "北京国际科技创新中心平台转载北京怀柔官微",
+      "source_date": "2026-11-13",
+      "source_type": "reported_technology_marketing_claim",
+      "source_review_status": "page_read",
+      "independence_group": "huairou_news_2026_11_13",
+      "project_event_id": null,
+      "fact_summary_paraphrase": "转载报道提到企业发布智能扫描探针显微成像控制系统，并引述产品价格和市场地位相关说法。",
+      "scope_limit": "EV-011与EV-008是同一篇文章，必须视为同一个来源。产品售价下降、市场占有率第一等说法没有在此提供市场调查样本或独立统计依据，应归为媒体报道主张，不能直接确认。",
+      "source_text_raw": null,
+      "source_saved_file": null,
+      "original_record_verified": false,
+      "subject_match_status": "name_matched_in_source;uscc_pending",
+      "human_review_status": "read_public_page_check_scope",
+      "generated_by_ai": false
+    }
+  ],
+  "claims": [
+    {
+      "id": "CL-TECH-01",
+      "text": "存在与低振动制冷装置有关、公开可查的企业名下发明专利记录",
+      "supported_by": [
+        "EV-002",
+        "EV-003"
+      ],
+      "support_level": "public_record_supported_with_legal_status_caveat",
+      "dimension": "技术资产",
+      "limits": "尚未完成CNIPA法律状态原始核验，尚未判断权利要求的技术壁垒和质量"
+    },
+    {
+      "id": "CL-TECH-02",
+      "text": "企业参与的联合研制仪器具有公开发表的性能测试结果",
+      "supported_by": [
+        "EV-009"
+      ],
+      "support_level": "research_report_supported",
+      "dimension": "技术先进性",
+      "limits": "性能属于该联合研究系统，不可自动外推到所有在售型号；横向行业领先尚需统一工况基准"
+    },
+    {
+      "id": "CL-TECH-03",
+      "text": "有公开报道描述高校核心专利技术转让与合作产业化",
+      "supported_by": [
+        "EV-010"
+      ],
+      "support_level": "public_research_report_supported",
+      "dimension": "技术来源及权属",
+      "limits": "具体转让专利、转让登记和合同条款待查，受让本身不是负面信号"
+    },
+    {
+      "id": "CL-REAL-01",
+      "text": "有科研机构公开采购公告和合同记录，表明存在外部采购事实与商业化线索",
+      "supported_by": [
+        "EV-004",
+        "EV-005",
+        "EV-006",
+        "EV-007"
+      ],
+      "support_level": "public_procurement_records_supported",
+      "dimension": "技术转化",
+      "limits": "采购中标不等于已履约、确认营业收入、回款；合同信息不能直接等于已验收；每个项目应单独识别"
+    },
+    {
+      "id": "CL-QUAL-01",
+      "text": "2026年11月13日政府平台报道企业入选新一批国家级专精特新“小巨人”名单",
+      "supported_by": [
+        "EV-008"
+      ],
+      "support_level": "government_platform_report_supported",
+      "dimension": "科技资质",
+      "limits": "具体名单及生效时间建议以工信部原始公布文件复核，不能据此推出偿债能力"
+    },
+    {
+      "id": "CL-BANK-01",
+      "text": "2025年公开报道披露工行北京怀柔支行向企业发放999万元贷款",
+      "supported_by": [
+        "EV-001"
+      ],
+      "support_level": "historical_media_report",
+      "dimension": "历史业务场景",
+      "limits": "不能推出当前贷款状态、现有工行客户分类或任何内部审批信息"
+    },
+    {
+      "id": "CL-MKT-01",
+      "text": "企业国内扫描探针显微镜市场占有率第一",
+      "supported_by": [
+        "EV-011"
+      ],
+      "support_level": "reported_claim_needs_independent_market_data",
+      "dimension": "市场地位",
+      "limits": "需第三方市场统计、口径、时间及分母，现阶段不得显示“已证实行业第一”"
+    },
+    {
+      "id": "CL-FIN-01",
+      "text": "当前年度营业收入、净利润、现金流、用信余额及回款情况",
+      "supported_by": [],
+      "support_level": "unknown_public_data_missing",
+      "dimension": "经营韧性",
+      "limits": "不得输出0、负面推断或模拟授信额度；应生成向企业/银行授权渠道取得资料的待核事项"
+    },
+    {
+      "id": "CL-LEAD-01",
+      "text": "该企业技术在行业范围内达到领先水平",
+      "supported_by": [
+        "EV-009",
+        "EV-011"
+      ],
+      "support_level": "insufficient_comparable_benchmark",
+      "dimension": "技术先进性",
+      "limits": "论文性能与报道主张可作线索，仍需同条件技术基准和行业专家判断"
+    }
+  ],
+  "due_diligence_questions": [
+    {
+      "id": "Q01",
+      "question": "请提供扫描探针显微镜核心产品的型号、测试环境、第三方测试报告和与同类产品可比的性能参数。",
+      "related_claim_ids": [
+        "CL-TECH-02",
+        "CL-LEAD-01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "请提供关键专利权属清单及与科研机构的技术转让/许可/联合开发协议摘要，核实相应权利使用范围。",
+      "related_claim_ids": [
+        "CL-TECH-03",
+        "CL-TECH-01"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "请按采购项目提供合同签订、交付验收、收入确认和回款状态，以核实商业化质量。",
+      "related_claim_ids": [
+        "CL-REAL-01"
+      ]
+    },
+    {
+      "id": "Q04",
+      "question": "请提供经授权可核验的营业收入、研发投入、现金流和主要客户集中度数据。",
+      "related_claim_ids": [
+        "CL-FIN-01"
+      ]
+    },
+    {
+      "id": "Q05",
+      "question": "如引用市场占有率第一，请提供统计报告、产品边界、统计区间及竞争对手口径。",
+      "related_claim_ids": [
+        "CL-MKT-01"
+      ]
+    }
+  ],
+  "independence_rule": "同一网页、同一研究成果转载、同一采购项目中标公告及合同文书，均需识别信息来源和事件依赖，不得机械按两条证据计双源。",
+  "review_workflow": [
+    "原始资料定位",
+    "主体同一性检查",
+    "事实提取",
+    "同源去重",
+    "事实与判断关联",
+    "待核实问题生成",
+    "人工复核",
+    "版本化报告"
+  ],
+  "evaluation_constraints": [
+    "没有实际数据的财务、信用治理和经营指标不得补零或暗中推定",
+    "不得将科技价值自建分数解释为可授信",
+    "不使用预先伪造的12信号等级给真实公司出79分等评价",
+    "真实数据和旧模拟数据必须有显著区分标签",
+    "所有事实与结论须能追溯到来源及资料时间"
+  ],
+  "test_cases": [
+    {
+      "id": "T01",
+      "name": "没有给出财务资料",
+      "operation": "运行完整资料包",
+      "expected": "财务、现金流、贷款余额显示未知；无虚构收入、现金流和评分；生成待向企业核实清单"
+    },
+    {
+      "id": "T02",
+      "name": "中标不代表收入",
+      "operation": "提问“2026年新增459.5万元营收是真的吗”",
+      "expected": "回答只存在2026年中标公告，缺少验收、收入确认、回款等材料"
+    },
+    {
+      "id": "T03",
+      "name": "高校成果转化不能直接负评",
+      "operation": "查阅EV-010并要求评估技术来源",
+      "expected": "能说明受让/合作研发，提示核实专利编号、合同和登记，不自动判为技术包装"
+    },
+    {
+      "id": "T04",
+      "name": "同源去重",
+      "operation": "同时引用EV-008与EV-011",
+      "expected": "被识别为同一政府转载文章，独立来源数为1"
+    },
+    {
+      "id": "T05",
+      "name": "评价时点隔离",
+      "operation": "将分析截止日期设为2024-12-31",
+      "expected": "不得使用2025及2026发布的信息；相关结论隐藏或显示时点外"
+    },
+    {
+      "id": "T06",
+      "name": "不完整来源打开失败",
+      "operation": "把EV-007原网页设为获取失败",
+      "expected": "保留已查到的搜索索引摘要及其有限性，标记待人工复核，不能假称抓取并存证成功"
+    },
+    {
+      "id": "T07",
+      "name": "人工否定证据会影响关联结论",
+      "operation": "把EV-009标记为存疑",
+      "expected": "CL-TECH-02进入待人工复核，相关报告失效或标记为需重审，其他不关联的结论保持原状态"
+    },
+    {
+      "id": "T08",
+      "name": "不被预设企业绑定",
+      "operation": "上传新的公开材料文本，要求提取“供应商、金额、事件日期、来源”",
+      "expected": "真实调用模型解析新文本，输出字段、原文定位、source_id 和待复核项；新增一份非预置案例也可工作"
+    },
+    {
+      "id": "T09",
+      "name": "市场领先证据不足",
+      "operation": "询问“国内市占率第一是不是已核实”",
+      "expected": "明确为报道中的说法，尚需第三方统计及市场口径"
+    },
+    {
+      "id": "T10",
+      "name": "引用验证",
+      "operation": "随机选择CL-REAL-01和CL-BANK-01",
+      "expected": "能打开真实来源URL，并在界面显示来源、日期、实际支持的事实和局限"
+    }
+  ],
+  "source_access_legend": {
+    "page_read": "人工通过公开页面内容核实过相关表述；尚未在产品中保存原始文件",
+    "search_result_only": "检索结果显示有关事实，来源网页访问失败或超时；须人工打开原件再确认"
+  }
+}

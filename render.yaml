@@ -1,0 +1,41 @@
+# Render 蓝图（Blueprint）配置 —— ProofTrace P8.4
+# 说明：本文件仅声明部署形态；AI_API_KEY 等敏感值在 Render 控制台 Environment 中填写，不写入本文件或前端。
+# 未经确认不会自动创建付费服务；首次部署请在 Render 控制台选择 Free 计划。
+services:
+  - type: web
+    name: prooftrace
+    runtime: node
+    plan: free
+    rootDir: .
+    buildCommand: npm install
+    startCommand: node server/server.js
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: 22.23.2
+      # 公网监听地址：Render 要求绑定 0.0.0.0；端口由平台注入 PORT，无需手动设置。
+      - key: HOST
+        value: 0.0.0.0
+      # 模型上游（OpenAI 兼容接口）。默认阿里百炼兼容模式，可按实际渠道修改。
+      - key: AI_API_BASE
+        value: https://dashscope.aliyuncs.com/compatible-mode/v1
+      - key: AI_MODEL
+        value: qwen-plus
+      # 敏感密钥：sync:false 表示只在 Render 控制台填写，不进入 Git 仓库与蓝图文件。
+      - key: AI_API_KEY
+        sync: false
+      # 访客限流：单 IP 每分钟请求数（含只读与 AI 接口）。
+      - key: PROOFTRACE_VISITOR_RPM
+        value: "60"
+      # 访客预算：单 IP 每日 AI 计费接口调用上限（extract / analyze / agent chat）。
+      - key: PROOFTRACE_VISITOR_DAILY_CALLS
+        value: "20"
+      # 全局预算：整站每日 AI 计费接口调用上限，防止额度被耗尽。
+      - key: PROOFTRACE_DAILY_AI_CALLS
+        value: "100"
+      # 公网默认禁用 /api/probe 网址探测（SSRF 面收敛）；确需开启置 1。
+      - key: PROOFTRACE_ENABLE_PROBE
+        value: "0"
+      # 可选：若改为令牌访问模式，在此填写访问令牌；留空即为开放访客模式。
+      - key: PROOFTRACE_AUTH_TOKEN
+        sync: false

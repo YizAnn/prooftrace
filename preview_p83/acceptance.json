@@ -1,0 +1,328 @@
+{
+  "views": {
+    "registry": {
+      "viewport": 1440,
+      "view": "registry",
+      "appWidth": 1440,
+      "mainWidth": 1228,
+      "rootScroll": 1136,
+      "rootClient": 1136,
+      "mainScroll": 1228,
+      "mainClient": 1228,
+      "bodyScroll": 1440,
+      "doc": null,
+      "tables": [
+        {
+          "width": 1134,
+          "scroll": 1134,
+          "client": 1134,
+          "headings": [
+            "企业 / 信用代码",
+            "注册区",
+            "行业",
+            "公告资质",
+            "研究状态",
+            "操作"
+          ]
+        }
+      ]
+    },
+    "queue": {
+      "viewport": 1440,
+      "view": "queue",
+      "appWidth": 1440,
+      "mainWidth": 1228,
+      "rootScroll": 1136,
+      "rootClient": 1136,
+      "mainScroll": 1228,
+      "mainClient": 1228,
+      "bodyScroll": 1440,
+      "doc": null,
+      "tables": [
+        {
+          "width": 1134,
+          "scroll": 1134,
+          "client": 1134,
+          "headings": [
+            "企业",
+            "证据充分度",
+            "技术评分",
+            "状态",
+            "待办",
+            "最近更新"
+          ]
+        }
+      ]
+    },
+    "profile": {
+      "viewport": 1440,
+      "view": "profile",
+      "appWidth": 1440,
+      "mainWidth": 1228,
+      "rootScroll": 1136,
+      "rootClient": 1136,
+      "mainScroll": 1228,
+      "mainClient": 1228,
+      "bodyScroll": 1440,
+      "doc": null,
+      "tables": [
+        {
+          "width": 1134,
+          "scroll": 1134,
+          "client": 1134,
+          "headings": [
+            "判断",
+            "支持程度",
+            "关联证据",
+            "核验 / 状态",
+            ""
+          ]
+        },
+        {
+          "width": 1134,
+          "scroll": 1134,
+          "client": 1134,
+          "headings": [
+            "技术维度",
+            "评价状态",
+            "独立来源",
+            "证据 / 判断",
+            "说明"
+          ]
+        },
+        {
+          "width": 1102,
+          "scroll": 1102,
+          "client": 1102,
+          "headings": [
+            "技术维度",
+            "2024-12-31",
+            "2026-11-21"
+          ]
+        }
+      ]
+    },
+    "evidence": {
+      "viewport": 1440,
+      "view": "evidence",
+      "appWidth": 1440,
+      "mainWidth": 1228,
+      "rootScroll": 1136,
+      "rootClient": 1136,
+      "mainScroll": 1228,
+      "mainClient": 1228,
+      "bodyScroll": 1440,
+      "doc": null,
+      "tables": [
+        {
+          "width": 0,
+          "scroll": 0,
+          "client": 0,
+          "headings": [
+            "字段",
+            "取值",
+            "来源",
+            "记录时间"
+          ]
+        }
+      ]
+    },
+    "model": {
+      "viewport": 1440,
+      "view": "model",
+      "appWidth": 1440,
+      "mainWidth": 1228,
+      "rootScroll": 1136,
+      "rootClient": 1136,
+      "mainScroll": 1228,
+      "mainClient": 1228,
+      "bodyScroll": 1440,
+      "doc": null,
+      "tables": [
+        {
+          "width": 1134,
+          "scroll": 1134,
+          "client": 1134,
+          "headings": [
+            "技术指标",
+            "权重",
+            "已采信",
+            "候选",
+            "依据与证据"
+          ]
+        },
+        {
+          "width": 558,
+          "scroll": 558,
+          "client": 558,
+          "headings": [
+            "项目",
+            "权重",
+            "完成度",
+            "说明"
+          ]
+        },
+        {
+          "width": 1100,
+          "scroll": 1100,
+          "client": 1100,
+          "headings": [
+            "指标",
+            "维度",
+            "权重",
+            "需要的证据"
+          ]
+        },
+        {
+          "width": 1100,
+          "scroll": 1100,
+          "client": 1100,
+          "headings": [
+            "等级",
+            "锚点",
+            "判定条件（技术事实）"
+          ]
+        }
+      ]
+    },
+    "rules": {
+      "viewport": 1440,
+      "view": "rules",
+      "appWidth": 1440,
+      "mainWidth": 1228,
+      "rootScroll": 1136,
+      "rootClient": 1136,
+      "mainScroll": 1228,
+      "mainClient": 1228,
+      "bodyScroll": 1440,
+      "doc": null,
+      "tables": [
+        {
+          "width": 1134,
+          "scroll": 1134,
+          "client": 1134,
+          "headings": [
+            "指标",
+            "维度",
+            "权重",
+            "定义与适用"
+          ]
+        },
+        {
+          "width": 1100,
+          "scroll": 1100,
+          "client": 1100,
+          "headings": [
+            "等级",
+            "锚点",
+            "判定条件"
+          ]
+        },
+        {
+          "width": 1100,
+          "scroll": 1100,
+          "client": 1100,
+          "headings": [
+            "等级",
+            "锚点",
+            "判定条件"
+          ]
+        },
+        {
+          "width": 1100,
+          "scroll": 1100,
+          "client": 1100,
+          "headings": [
+            "等级",
+            "锚点",
+            "判定条件"
+          ]
+        }
+      ]
+    },
+    "export": {
+      "viewport": 1440,
+      "view": "export",
+      "appWidth": 1440,
+      "mainWidth": 1228,
+      "rootScroll": 1136,
+      "rootClient": 1136,
+      "mainScroll": 1228,
+      "mainClient": 1228,
+      "bodyScroll": 1440,
+      "doc": {
+        "x": 406,
+        "y": 447.25,
+        "width": 840,
+        "height": 13056.109375,
+        "top": 447.25,
+        "right": 1246,
+        "bottom": 13503.359375,
+        "left": 406
+      },
+      "tables": [
+        {
+          "width": 744,
+          "scroll": 744,
+          "client": 744,
+          "headings": [
+            "编号",
+            "公开事实",
+            "证据等级",
+            "来源类型"
+          ]
+        },
+        {
+          "width": 744,
+          "scroll": 744,
+          "client": 744,
+          "headings": [
+            "判断",
+            "支持",
+            "关联证据",
+            "状态"
+          ]
+        },
+        {
+          "width": 744,
+          "scroll": 744,
+          "client": 744,
+          "headings": [
+            "判断",
+            "核验关系",
+            "独立来源",
+            "证据数",
+            "说明"
+          ]
+        },
+        {
+          "width": 744,
+          "scroll": 744,
+          "client": 744,
+          "headings": [
+            "技术维度",
+            "评价状态",
+            "独立来源",
+            "证据 / 判断",
+            "说明"
+          ]
+        }
+      ]
+    },
+    "export_1920": {
+      "bodyScroll": 1920,
+      "viewClient": 1480,
+      "viewScroll": 1480,
+      "docWidth": 840,
+      "overflow": []
+    }
+  },
+  "errors": [],
+  "home": {
+    "title": "技术，\n怎么打分？",
+    "demo_tabs": 4,
+    "demo": "评分有迹可循",
+    "model_route": "model",
+    "logo_click_landing": true
+  }
+}
