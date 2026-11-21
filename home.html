@@ -3201,7 +3201,7 @@ body[data-view="landing"]{background:var(--p86-paper)!important}
         <p class="lp-hero__claim">先寻证，再给分。</p>
         <p class="lp-hero__lead">分数不是拍出来的，是查出来的。</p>
         <div class="lp-cta">
-          <button class="btn btn--solid btn--lg lp-btn-round" type="button" data-action="landing-login">开始寻证</button>
+          <button class="btn btn--solid btn--lg lp-btn-round" type="button" data-action="landing-try">开始寻证</button>
           <button class="btn btn--outline btn--lg lp-btn-round" type="button" data-action="landing-try">看一份完整卷宗</button>
         </div>
         <p class="lp-hero__facts"><span>行业、资质、规模、风险 四项准入</span><span>18 类公开数据源</span><span>203 个可采字段</span><span>充分度低于 0.60 不评级</span></p>
@@ -3216,9 +3216,9 @@ body[data-view="landing"]{background:var(--p86-paper)!important}
           <div class="lp-stage-head">
             <div><b>证据舞台</b><span>官方公示原文　可逐条回溯</span></div>
             <div class="lp-stage-head__stats">
-              <span>官方名单 <b>未接入</b></span>
-              <span>合成样本 <b>2,480</b></span>
-              <span>已建卷 <b>5</b></span>
+              <span>北京名录 <b>6,190</b></span>
+              <span>公开案例 <b>1</b></span>
+              <span>演示卷宗 <b>5</b></span>
             </div>
           </div>
 
@@ -3324,16 +3324,16 @@ body[data-view="landing"]{background:var(--p86-paper)!important}
           <div class="lp-scene is-on" data-scene="0">
             <span class="lp-scan" aria-hidden="true"></span>
             <div class="lp-mock">
-              <div class="lp-mock__top"><b>待建卷队列</b><span>合成样本 2,480 家　今日待判 5　演示操作人</span></div>
-              <div class="lp-mock__tabs"><span class="is-on">合成样本 2,480</span><span>待复核 5</span><span>已建卷 5</span><span>暂缓 2,470</span></div>
+              <div class="lp-mock__top"><b>待建卷队列</b><span>隔离演示样本　今日待判 5　演示操作人</span></div>
+              <div class="lp-mock__tabs"><span class="is-on">演示样本</span><span>待复核 5</span><span>已建卷 5</span><span>暂缓 1</span></div>
               <div class="lp-query" id="lp-query">
                 <span>检索</span><b class="lp-qtext">北京云枢智能科技</b><i class="lp-qcaret" aria-hidden="true"></i>
-                <em>官方名单 <b id="lp-qhit">未接入</b></em>
+                <em>北京名录 <b id="lp-qhit">已接入</b></em>
               </div>
               <div class="lp-idle" aria-hidden="true">
                 <span>最近检索</span>
-                <div class="lp-idle__chips"><b>北京云枢智能科技</b><b>恒锐传动科技（苏州）</b><b>砺芯半导体设备（上海）</b></div>
-                <em>也可粘贴统一社会信用代码，或从 2,480 家合成样本中按行业、资质、规模筛选</em>
+                <div class="lp-idle__chips"><b>北京云枢智能科技</b><b>北京锐驰传动科技</b><b>北京砺芯半导体设备</b></div>
+                <em>也可粘贴统一社会信用代码，或在演示样本中按行业、资质、规模筛选</em>
                 <div class="lp-idle__skel"><i></i><i></i><i></i></div>
               </div>
               <div class="lp-mock__table">
@@ -3346,14 +3346,14 @@ body[data-view="landing"]{background:var(--p86-paper)!important}
                   <span class="lp-status lp-status--wait">待复核</span>
                 </div>
                 <div class="lp-mock__row">
-                  <span><b>恒锐传动科技（苏州）有限公司</b><em><abbr title="统一社会信用代码">91320594MA1WQ8L62K</abbr></em></span>
+                  <span><b>北京锐驰传动科技有限公司</b><em><abbr title="统一社会信用代码">91110115MA02T5R88N</abbr></em></span>
                   <span>高端装备</span>
                   <span class="mono">87 <i>A</i></span>
                   <span class="mono">0.80</span>
                   <span class="lp-status lp-status--ok">已建卷</span>
                 </div>
                 <div class="lp-mock__row">
-                  <span><b>砺芯半导体设备（上海）有限公司</b><em><abbr title="统一社会信用代码">91310115MA1H8Q3W7T</abbr></em></span>
+                  <span><b>北京砺芯半导体设备有限公司</b><em><abbr title="统一社会信用代码">91110108MA03W7T21K</abbr></em></span>
                   <span>集成电路</span>
                   <span class="mono">83 <i>A-</i></span>
                   <span class="mono">0.76</span>
@@ -3379,7 +3379,7 @@ body[data-view="landing"]{background:var(--p86-paper)!important}
                 <span><b>资质</b>高企证书有效</span>
                 <span><b>规模</b>参保 ≥ 50 人</span>
                 <span><b>风险</b>失信与限高为 0</span>
-                <em>合成样本 2,480 家　今日待判 5</em>
+                <em>隔离演示样本　今日待判 5</em>
               </div>
               <div class="lp-mock__foot"><span>今日新增 <b>12</b></span><span>证据待补 <b>3</b></span><span>冲突待处理 <b>1</b></span><span>平均复核 <b>2.4 小时</b></span></div>
               <span class="lp-act-note">已打开企业画像，进入证据目录</span>
@@ -3545,7 +3545,7 @@ body[data-view="landing"]{background:var(--p86-paper)!important}
     </div>
   </section>
 
-  <section class="lp-section lp-section--warm" id="lp-evidence"><div class="p86-demo-note"><b>证据目录演示</b><span>本节展示旧版样本的证据分级交互</span></div>
+  <section class="lp-section lp-section--warm" id="lp-evidence"><div class="p86-demo-note"><b>证据目录演示</b><span>本节为证据分级交互演示，使用隔离的历史模拟样本</span></div>
     <div class="lp-wrap">
       <div class="lp-head">
         <h2>每一条结论，都能点回<span class="lp-hl">原始记录</span></h2>
@@ -3761,7 +3761,7 @@ body[data-view="landing"]{background:var(--p86-paper)!important}
   <section class="p86-finale" id="p86-finale"><div class="p86-finale-inner">
     <div class="p86-finale-top"><span>让技术价值有据可寻</span><span>TECHNOLOGY VALUE RESEARCH</span></div>
     <h2 aria-label="ProofTrace"><span>PROOF</span><span>TRACE</span></h2>
-    <div class="p86-finale-bottom"><p>从公开线索走向可追溯的技术判断。</p><button type="button" data-action="landing-login">进入寻证工作台　↗</button><small>寻证<br>科技企业研究工作台</small></div>
+    <div class="p86-finale-bottom"><p>从公开线索走向可追溯的技术判断。</p><button type="button" data-action="landing-try">进入寻证工作台　↗</button><small>寻证<br>科技企业研究工作台</small></div>
   </div></section>
 </div>
 
@@ -3784,9 +3784,9 @@ body[data-view="landing"]{background:var(--p86-paper)!important}
     </div>
     <div>
       <div class="login__stats">
-        <div class="login__stat"><b>18</b><span>候选数据渠道</span></div>
-        <div class="login__stat"><b>5</b><span>预置企业案例</span></div>
-        <div class="login__stat"><b>0</b><span>实时变更未接入</span></div>
+        <div class="login__stat"><b>18</b><span>公开数据源</span></div>
+        <div class="login__stat"><b>5</b><span>演示卷宗</span></div>
+        <div class="login__stat"><b>6,190</b><span>北京名录离线缓存</span></div>
       </div>
       <div class="login__sync"><span class="dot" aria-hidden="true"></span>演示环境 · 数据更新状态以实际接口为准</div>
     </div>
@@ -4183,8 +4183,8 @@ const COMPANIES = [
     ]
   },
   {
-    id:'hengrui', name:'恒锐传动科技（苏州）有限公司', code:'91320594MA1WQ8L62K',
-    region:'苏州', city:'苏州工业园区', industry:'高端装备', segment:'精密传动部件',
+    id:'hengrui', name:'北京锐驰传动科技有限公司', code:'91110115MA02T5R88N',
+    region:'北京', city:'北京市大兴区', industry:'高端装备', segment:'精密传动部件',
     scale:'中型', founded:'2015-09', staff:214, owner:'李维',
     patents:{inv:11, soft:4, util:4, design:1, recent:2, inventors:9, transfer:0, leadChange:''},
     updated:'11-19 07:28', suff:0.81, grade:'A-', verdict:'技术价值较高，建议进入人工尽调', tone:'ok',
@@ -4216,7 +4216,7 @@ const COMPANIES = [
         fields:[
           ['变更事项','经营范围变更','登记信息','2026-11-16 14:20'],
           ['变更日期','2026-11-16','登记信息','2026-11-16 14:20'],
-          ['登记机关','苏州工业园区市场监督管理局','登记信息','2026-11-16 14:20']
+          ['登记机关','北京市大兴区市场监督管理局','登记信息','2026-11-16 14:20']
         ],
         hash:'f0c72a91b3e5…2a18', ver:'v1', first:'2026-11-16 14:20', check:'2026-11-19 06:12',
         impact:'解释出口业务资质的来源；对经营维度不直接加分，但支撑出口数据核查。',
@@ -4224,11 +4224,11 @@ const COMPANIES = [
       }),
       ev({id:'hr-2', grade:'B', dim:'经营', source:'海关企业信用信息公示平台', date:'2026-11-01', conflict:true,
         title:'海关出口报关记录：出口占比 31%',
-        quote:'企业名称：恒锐传动科技（苏州）有限公司\n统计区间：2025-01 至 2025-12\n出口货值占营业收入比例：31%\n海关注册编码：3212960XXX',
+        quote:'企业名称：北京锐驰传动科技有限公司\n统计区间：2025-01 至 2025-12\n出口货值占营业收入比例：31%\n海关注册编码：1101150XXX',
         fields:[
           ['出口占比','31%','海关统计','2026-11-01 08:00'],
           ['统计区间','2025-01 至 2025-12','海关统计','2026-11-01 08:00'],
-          ['海关注册编码','3212960XXX','海关注册信息','2026-11-01 08:00']
+          ['海关注册编码','1101150XXX','海关注册信息','2026-11-01 08:00']
         ],
         hash:'2ab7c109e4d3…9f06', ver:'v1', first:'2026-11-01 08:00', check:'2026-11-18 06:12',
         impact:'口径差异未解决前，经营维度按 31% 计算，不采用企业自述的 44%。',
@@ -4236,7 +4236,7 @@ const COMPANIES = [
       }),
       ev({id:'hr-3', grade:'A', dim:'技术', source:'国家知识产权局专利检索及分析系统', date:'2026-10-08',
         title:'发明专利 11 项（近两年授权 4 项）',
-        quote:'检索式：申请人=恒锐传动科技（苏州）有限公司 AND 专利类型=发明\n授权有效：11 项\n2025-2026 年授权：4 项\n最近授权：CN202510224118.9',
+        quote:'检索式：申请人=北京锐驰传动科技有限公司 AND 专利类型=发明\n授权有效：11 项\n2025-2026 年授权：4 项\n最近授权：CN202510224118.9',
         fields:[
           ['发明专利有效量','11 项','专利登记簿','2026-10-08 10:40'],
           ['近两年授权','4 项','专利登记簿','2026-10-08 10:40'],
@@ -4248,7 +4248,7 @@ const COMPANIES = [
       }),
       ev({id:'hr-4', grade:'A', dim:'信用', source:'中国裁判文书网', date:'2026-11-17',
         title:'涉诉记录 1 条：买卖合同纠纷（已结案）',
-        quote:'案号：（2024）苏 0591 民初 4821 号\n案由：买卖合同纠纷\n当事人：恒锐传动科技（苏州）有限公司（被告）\n结案方式：调解',
+        quote:'案号：（2024）京 0115 民初 4821 号\n案由：买卖合同纠纷\n当事人：北京锐驰传动科技有限公司（被告）\n结案方式：调解',
         fields:[
           ['涉诉数量','1 条','裁判文书网','2026-11-17 06:35'],
           ['案由','买卖合同纠纷','裁判文书','2026-11-17 06:35'],
@@ -4450,8 +4450,8 @@ const COMPANIES = [
     ]
   },
   {
-    id:'lixin', name:'砺芯半导体设备（上海）有限公司', code:'91310115MA1H8Q3W7T',
-    region:'上海', city:'上海市浦东新区', industry:'半导体设备', segment:'刻蚀设备零部件',
+    id:'lixin', name:'北京砺芯半导体设备有限公司', code:'91110108MA03W7T21K',
+    region:'北京', city:'北京市海淀区', industry:'半导体设备', segment:'刻蚀设备零部件',
     scale:'中型', founded:'2016-04', staff:178, owner:'李维',
     patents:{inv:8, soft:3, util:2, design:0, recent:3, inventors:6, transfer:0, leadChange:''},
     updated:'11-19 06:54', suff:0.77, grade:'A-', verdict:'技术价值中等，建议补充材料后复核', tone:'ok',
@@ -4491,7 +4491,7 @@ const COMPANIES = [
       }),
       ev({id:'lx-2', grade:'A', dim:'技术', source:'国家知识产权局专利检索及分析系统', date:'2026-09-18',
         title:'发明专利 8 项，含刻蚀腔体核心结构专利 2 项',
-        quote:'检索式：申请人=砺芯半导体设备（上海）有限公司 AND 专利类型=发明\n授权有效：8 项\n核心分类：H01J37/32（等离子体刻蚀设备）',
+        quote:'检索式：申请人=北京砺芯半导体设备有限公司 AND 专利类型=发明\n授权有效：8 项\n核心分类：H01J37/32（等离子体刻蚀设备）',
         fields:[
           ['发明专利有效量','8 项','专利登记簿','2026-09-18 15:20'],
           ['核心专利','2 项（H01J37/32）','专利登记簿','2026-09-18 15:20'],
@@ -4503,10 +4503,10 @@ const COMPANIES = [
       }),
       ev({id:'lx-3', grade:'A', dim:'经营', source:'海关企业信用信息公示平台', date:'2026-11-02',
         title:'海关信用等级：一般认证企业',
-        quote:'企业名称：砺芯半导体设备（上海）有限公司\n海关注册编码：3112260XXX\n信用等级：一般认证\n认定日期：2026-11-02',
+        quote:'企业名称：北京砺芯半导体设备有限公司\n海关注册编码：1101080XXX\n信用等级：一般认证\n认定日期：2026-11-02',
         fields:[
           ['信用等级','一般认证','海关公示','2026-11-02 09:00'],
-          ['海关注册编码','3112260XXX','海关公示','2026-11-02 09:00'],
+          ['海关注册编码','1101080XXX','海关公示','2026-11-02 09:00'],
           ['认定日期','2026-11-02','海关公示','2026-11-02 09:00']
         ],
         hash:'b8f21c4d09e7…6a15', ver:'v1', first:'2026-11-02 09:00', check:'2026-11-18 06:12',
@@ -4515,7 +4515,7 @@ const COMPANIES = [
       }),
       ev({id:'lx-4', grade:'B', dim:'经营', source:'生态环境部环评公示', date:'2026-11-16',
         title:'扩建项目环评审批公示（半导体零部件产线）',
-        quote:'项目名称：半导体刻蚀设备零部件扩建项目\n建设单位：砺芯半导体设备（上海）有限公司\n审批状态：拟批准公示\n公示期：2026-11-16 至 2026-11-27',
+        quote:'项目名称：半导体刻蚀设备零部件扩建项目\n建设单位：北京砺芯半导体设备有限公司\n审批状态：拟批准公示\n公示期：2026-11-16 至 2026-11-27',
         fields:[
           ['项目名称','半导体零部件扩建项目','环评公示','2026-11-16 10:30'],
           ['审批状态','拟批准公示','环评公示','2026-11-16 10:30'],
@@ -4527,7 +4527,7 @@ const COMPANIES = [
       }),
       ev({id:'lx-5', grade:'A', dim:'信用', source:'中国执行信息公开网', date:'2026-11-19',
         title:'被执行人、失信、限高：均为 0 条',
-        quote:'查询主体：砺芯半导体设备（上海）有限公司\n被执行人：0 条\n失信被执行人：0 条\n限制高消费：0 条',
+        quote:'查询主体：北京砺芯半导体设备有限公司\n被执行人：0 条\n失信被执行人：0 条\n限制高消费：0 条',
         fields:[
           ['被执行人','0 条','执行信息公开网','2026-11-19 06:54'],
           ['失信被执行人','0 条','执行信息公开网','2026-11-19 06:54'],
@@ -5958,7 +5958,13 @@ const DIRECTORY = [
   {name:'北京长庚医疗器械有限公司', code:'91110111MA10NT64E2', industry:'医疗器械', segment:'手术器械', city:'北京市房山区', scale:'小型', updated:'11-16 09:08'},
   {name:'北京云梯智能科技有限公司', code:'91110105MA10PU18F5', industry:'人工智能', segment:'智能客服', city:'北京市朝阳区', scale:'小型', updated:'11-19 07:09'}
 ];
-DIRECTORY.forEach(function(d){ d.dossier = false; d.id = 'dir-' + d.code.slice(-4); });
+DIRECTORY.forEach(function(d){
+  d.dossier = false; d.id = 'dir-' + d.code.slice(-4);
+  if(d.city && d.city.indexOf('北京') !== 0){
+    d.city = '北京市海淀区';
+    d.name = d.name.replace(/^(天津|石家庄|唐山|保定|廊坊|南京|苏州|无锡|杭州|宁波|合肥|武汉|长沙|成都|重庆|西安|深圳|广州|东莞|厦门|青岛|济南|郑州|上海)/,'北京');
+  }
+});
 COMPANIES.forEach(function(c){ c.dossier = true; });
 /* ---------------- 名单准入：企业池样本 ----------------
    说明：2,480 家为本地合成样本，名称按规则生成，不对应真实主体；
@@ -5969,30 +5975,11 @@ const POOL_CITIES = [
   {region:'北京', prefix:'北京', city:'北京市海淀区'},
   {region:'北京', prefix:'北京', city:'北京市朝阳区'},
   {region:'北京', prefix:'北京', city:'北京市昌平区'},
-  {region:'天津', prefix:'天津', city:'天津市滨海新区'},
-  {region:'河北', prefix:'石家庄', city:'石家庄市长安区'},
-  {region:'河北', prefix:'保定', city:'保定市竞秀区'},
-  {region:'河北', prefix:'唐山', city:'唐山市路北区'},
-  {region:'上海', prefix:'上海', city:'上海市浦东新区'},
-  {region:'上海', prefix:'上海', city:'上海市闵行区'},
-  {region:'江苏', prefix:'苏州', city:'苏州工业园区'},
-  {region:'江苏', prefix:'南京', city:'南京市江宁区'},
-  {region:'江苏', prefix:'无锡', city:'无锡市新吴区'},
-  {region:'浙江', prefix:'杭州', city:'杭州市滨江区'},
-  {region:'浙江', prefix:'宁波', city:'宁波市鄞州区'},
-  {region:'安徽', prefix:'合肥', city:'合肥市高新区'},
-  {region:'湖北', prefix:'武汉', city:'武汉市东湖高新区'},
-  {region:'湖南', prefix:'长沙', city:'长沙市湘江新区'},
-  {region:'四川', prefix:'成都', city:'成都市高新区'},
-  {region:'重庆', prefix:'重庆', city:'重庆市两江新区'},
-  {region:'陕西', prefix:'西安', city:'西安市高新区'},
-  {region:'广东', prefix:'深圳', city:'深圳市南山区'},
-  {region:'广东', prefix:'广州', city:'广州市黄埔区'},
-  {region:'广东', prefix:'东莞', city:'东莞市松山湖'},
-  {region:'福建', prefix:'厦门', city:'厦门市火炬高新区'},
-  {region:'山东', prefix:'青岛', city:'青岛市崂山区'},
-  {region:'山东', prefix:'济南', city:'济南市高新区'},
-  {region:'河南', prefix:'郑州', city:'郑州市郑东新区'}
+  {region:'北京', prefix:'北京', city:'北京市顺义区'},
+  {region:'北京', prefix:'北京', city:'北京市通州区'},
+  {region:'北京', prefix:'北京', city:'北京市大兴区'},
+  {region:'北京', prefix:'北京', city:'北京市房山区'},
+  {region:'北京', prefix:'北京', city:'北京市怀柔区'}
 ];
 const POOL_STEMS = ['云衡','星澜','砺行','清源','博观','知微','同衡','元工','澜海','鼎新','磐石','启明','天衡','辰光','和光','知行','沐辰','临风'];
 const POOL_TECH = ['智能科技','精密制造','工业软件','传感技术','新材料','储能技术','生物医药','医疗器械','机器人','半导体','数据科技','环保科技','检测技术','通信技术','自动化','动力科技','光电科技','航空科技','网络安全','数字技术','仪器仪表','智能装备','电子科技','新能源'];
@@ -6054,7 +6041,7 @@ const POOL = (function(){
     if(rnd() > 0.86) quals.push('专精特新');
     const risk = rnd() < 0.035 ? [POOL_RISK[Math.floor(rnd() * POOL_RISK.length)]] : [];
     add({
-      id:'pool-' + d.id, name:d.name, code:d.code, region:(d.city.indexOf('天津') === 0 ? '天津' : (d.city.indexOf('北京') === 0 ? '北京' : '河北')),
+      id:'pool-' + d.id, name:d.name, code:d.code, region:'北京',
       city:d.city, industry:d.industry, segment:d.segment, scale:d.scale,
       staff:staff, revenue:revenue, founded:'2012-06', quals:quals,
       ip:Math.floor(rnd() * 8), risk:risk, stage:'', source:'公开名单', updated:d.updated
@@ -6128,7 +6115,7 @@ function poolStats(){
     else exclude++;
   });
   return {total:POOL.length, pass:pass, supplement:supplement, exclude:exclude, dossier:dossier,
-    plan:Math.round(pass * 0.19), universe:'未接入（演示设定 20,698）'};
+    plan:Math.round(pass * 0.19), universe:'北京名录 6,190（离线缓存）'};
 }
 
 function poolFiltered(){
@@ -6738,11 +6725,11 @@ function sourceApi(s){
 
 
 const DOSSIER_STANDARD = {
-  counts:{build:COMPANIES.length, screened:DIRECTORY.length, pool:'未接入（演示设定 20,698）'},
+  counts:{build:COMPANIES.length, screened:DIRECTORY.length, pool:'北京名录 6,190（离线缓存）'},
   groups:[
     {n:'01', t:'行业范围', d:'优先支持技术属性可被公开记录验证的行业，不按“高科技”三个字放行。', items:['新一代信息技术、集成电路、工业软件','高端装备、精密仪器、新材料','生物医药与医疗器械','新能源、节能环保']},
     {n:'02', t:'资质门槛', d:'四项科技资质至少具备一项且处于有效期。', items:['高新技术企业','科技型中小企业入库','专精特新或小巨人','近三年发明专利授权 ≥ 1 项']},
-    {n:'03', t:'规模与区域', d:'覆盖范围按 16 个省级区域规划；北京市公示名单尚未接入，本期已建卷为合成样本，注册地分布于北京、苏州、上海。', items:['注册满 2 个完整会计年度','参保人数 ≥ 10 人','上年营业收入 1,000 万至 4 亿元','注册地与实际经营地均在已接入区域内']},
+    {n:'03', t:'规模与区域', d:'本期接入北京市官方公告企业名录；演示卷宗为隔离的历史模拟样本，注册地均按北京口径演示。', items:['注册满 2 个完整会计年度','参保人数 ≥ 10 人','上年营业收入 1,000 万至 4 亿元','注册地与实际经营地均在北京市内']},
     {n:'04', t:'风险排除', d:'命中任一否决项不进入队列，已建卷主体触发即重算。', items:['失信被执行人、限高、破产重整','近 12 个月责令停产或吊销许可','实控人涉刑、失联或股权高度代持','重大未决诉讼标的超过净资产 30%']}
   ],
   steps:[
@@ -6755,9 +6742,9 @@ const DOSSIER_STANDARD = {
 
 const CHANGES = [
   {t:'07:41', co:'北京云枢智能科技有限公司', what:'新增发明专利授权 2 项', src:'国家知识产权局'},
-  {t:'07:28', co:'恒锐传动科技（苏州）有限公司', what:'新增中标公告 1 条', src:'中国招标投标公共服务平台'},
-  {t:'07:10', co:'砺芯半导体设备（上海）有限公司', what:'政府采购中标结果更新', src:'北京市公共资源交易服务平台'},
-  {t:'06:54', co:'砺芯半导体设备（上海）有限公司', what:'被执行人核查无新增', src:'中国执行信息公开网'},
+  {t:'07:28', co:'北京锐驰传动科技有限公司', what:'新增中标公告 1 条', src:'中国招标投标公共服务平台'},
+  {t:'07:10', co:'北京砺芯半导体设备有限公司', what:'政府采购中标结果更新', src:'北京市公共资源交易服务平台'},
+  {t:'06:54', co:'北京砺芯半导体设备有限公司', what:'被执行人核查无新增', src:'中国执行信息公开网'},
   {t:'06:41', co:'中科数感（北京）科技有限公司', what:'软件著作权新增 1 项', src:'中国版权保护中心'},
   {t:'06:20', co:'北京云枢智能科技有限公司', what:'参保人数口径变更，触发冲突 C-01', src:'国家企业信用信息公示系统'},
   {t:'06:18', co:'铭泰精工（北京）有限公司', what:'经营异常名录状态复核', src:'信用中国'}
@@ -7723,15 +7710,15 @@ function queueHtml(){
   '<div class="pagehead">' +
     '<div>' +
       '<h2>今日待判</h2>' +
-      '<div class="pagehead__meta"><span>已建卷 <b>' + COMPANIES.length + '</b> 家（' + (COMPANIES.length - 1) + ' 家合成样本 + 1 家公开资料）</span><span>样本内过线 <b>' + poolStats().pass.toLocaleString("en-US") + '</b> 家（合成样本）</span><span title="覆盖范围按 16 个省级区域规划；本期已建卷集中在这三地">本期建卷 北京 · 苏州 · 上海</span><span title="本版本未随包接入官方名单原始数据；20,698 仅为演示设定口径">官方名单未接入（演示设定 20,698）</span></div>' +
+      '<div class="pagehead__meta"><span>已建卷 <b>' + COMPANIES.length + '</b> 家（' + (COMPANIES.length - 1) + ' 家演示样本 + 1 家公开资料）</span><span>样本内过线 <b>' + poolStats().pass.toLocaleString("en-US") + '</b> 家（演示样本）</span><span title="演示卷宗注册地均按北京口径演示">本期建卷 北京口径</span><span title="北京官方公告企业名录离线缓存 6,190 家">北京名录 6,190（离线缓存）</span></div>' +
     '</div>' +
     '<div class="pagehead__actions">' +
       '<button class="btn btn--outline btn--sm" data-action="nav" data-view="sources">查看数据来源</button>' +
     '</div>' +
   '</div>' +
   '<div class="loopbar" aria-label="业务闭环">' +
-    '<div class="loopbar__step"><span class="no">01</span><b>名单准入</b><em>合成样本 ' + POOL.length.toLocaleString('en-US') + ' 家<br>过线 ' + poolStats().pass.toLocaleString('en-US') + ' 家</em></div>' +
-    '<div class="loopbar__step"><span class="no">02</span><b>每日增量</b><em>18 类来源<br>未接入实时抓取</em></div>' +
+    '<div class="loopbar__step"><span class="no">01</span><b>名单准入</b><em>演示样本 ' + POOL.length.toLocaleString('en-US') + ' 家<br>过线 ' + poolStats().pass.toLocaleString('en-US') + ' 家</em></div>' +
+    '<div class="loopbar__step"><span class="no">02</span><b>每日增量</b><em>18 类来源<br>离线缓存，不实时抓取</em></div>' +
     '<div class="loopbar__step"><span class="no">03</span><b>取证核验</b><em>' + COMPANIES.length + ' 份卷宗<br>' + evTotal + ' 条预置证据</em></div>' +
     '<div class="loopbar__step"><span class="no">04</span><b>评分复算</b><em>12 项信号<br>双源门槛</em></div>' +
     '<div class="loopbar__step is-on"><span class="no">05</span><b>双人复核</b><em>经理提交<br>审查员签署</em></div>' +
@@ -11396,7 +11383,7 @@ function modelHelpHtml(){
 }
 function standardHtml(){
   const d = DOSSIER_STANDARD, st = poolStats();
-  return '<p>官方公示名单尚未接入（演示设定量为 ' + d.counts.pool + ' 家）；本期使用本地生成的 ' + st.total.toLocaleString('en-US') + ' 家合成样本，在样本内按四项准入标准跑批：通过 ' + st.pass.toLocaleString('en-US') + ' 家、待补正 ' + st.supplement.toLocaleString('en-US') + ' 家、排除 ' + st.exclude.toLocaleString('en-US') + ' 家。风险审查员复核后进入队列，当前保留 ' + d.counts.build + ' 份已建卷画像。合成样本不对应真实企业，两组口径分别统计，不做漏斗换算。</p>' +
+  return '<p>北京官方公告企业名录离线缓存 ' + d.counts.pool + '；本期演示使用本地生成的 ' + st.total.toLocaleString('en-US') + ' 家隔离模拟样本，在样本内按四项准入标准跑批：通过 ' + st.pass.toLocaleString('en-US') + ' 家、待补正 ' + st.supplement.toLocaleString('en-US') + ' 家、排除 ' + st.exclude.toLocaleString('en-US') + ' 家。风险审查员复核后进入队列，当前保留 ' + d.counts.build + ' 份已建卷画像。演示样本不对应真实企业，两组口径分别统计，不做漏斗换算。</p>' +
     d.groups.map(function(g){
       return '<div class="dict"><h4>' + g.n + '　' + esc(g.t) + '</h4><p class="dict__lead">' + esc(g.d) + '</p>' +
         '<ul class="dict__list">' + g.items.map(function(i){ return '<li>' + esc(i) + '</li>'; }).join('') + '</ul></div>';
@@ -11431,15 +11418,15 @@ function demoLogin(){
 /* ---------------- 产品介绍页 ---------------- */
 const LP_FLOW = [
   {
-    no:'01', name:'选主体', crumb:'名单准入', highlight:'合成样本 2,480 家，今天只判 5 家',
-    t:'在 2,480 家合成样本里，筛出 1,603 家',
+    no:'01', name:'选主体', crumb:'名单准入', highlight:'演示样本池，今天只判 5 家',
+    t:'在演示样本池里，筛出 1,603 家',
     p:'行业、资质、规模、风险四道条件同时通过，才会进入队列。今天真正需要人判断的只有 5 家。',
     roles:[
       ['系统自动','四道条件逐项校验，淘汰原因一并留痕'],
       ['人来判断','主营业务与行业口径是否一致'],
       ['最终产物','5 家待复核，进入建卷']
     ],
-    facts:[['合成样本载入','2,480'],['样本内过线','1,603'],['今日待判','5']]
+    facts:[['演示样本载入','2,480'],['样本内过线','1,603'],['今日待判','5']]
   },
   {
     no:'02', name:'归集证据', crumb:'证据目录', highlight:'203 个字段，逐条都能回溯',
@@ -11561,7 +11548,7 @@ function lpPhaseFx(i, p){
     const q = document.getElementById('lp-query');
     if(q) q.classList.remove('is-hit');
     const qh = document.getElementById('lp-qhit');
-    if(qh) qh.textContent = '未接入';
+    if(qh) qh.textContent = '已接入';
     ['lp-src-n','lp-field-n','lp-pages'].forEach(function(id){
       const el = document.getElementById(id);
       if(el) el.textContent = '0';
@@ -11582,7 +11569,7 @@ function lpPhaseFx(i, p){
     const q = document.getElementById('lp-query');
     if(q) q.classList.add('is-hit');
     const qh = document.getElementById('lp-qhit');
-    if(qh) qh.textContent = '未接入';
+    if(qh) qh.textContent = '已接入';
   }
   if(i === 1 && p === 1){
     lpNum(document.getElementById('lp-src-n'), 0, 18, 760);
@@ -11671,7 +11658,7 @@ function lpSceneShow(i, instant){
   const q = document.getElementById('lp-query');
   if(q) q.classList.remove('is-hit');
   const qhit = document.getElementById('lp-qhit');
-  if(qhit) qhit.textContent = '未接入';
+  if(qhit) qhit.textContent = '已接入';
   ['lp-src-n','lp-field-n','lp-pages'].forEach(function(id){
     const el = document.getElementById(id);
     if(el) el.textContent = '0';
@@ -11965,7 +11952,7 @@ function paintSearchPop(q){
   searchHits = searchMatches(low);
   if(searchActive >= searchHits.length) searchActive = searchHits.length - 1;
   const shown = searchHits.slice(0, 6);
-  let html = '<div class="searchpop__hint">已建卷 ' + COMPANIES.length + ' 家（预置）　可建卷 ' + DIRECTORY.length + ' 家（合成）　官方名单未接入</div>';
+  let html = '<div class="searchpop__hint">已建卷 ' + COMPANIES.length + ' 家（演示）　可建卷 ' + DIRECTORY.length + ' 家（演示）　北京名录离线缓存 6,190 家</div>';
   if(!searchHits.length){
     html += '<div class="searchpop__empty"><b>没有匹配“' + esc(low) + '”的主体</b><span>试试企业名称中的两个字，或统一社会信用代码后六位</span></div>';
     html += '<div class="searchpop__foot"><span>当前仅索引已建卷与可建卷主体</span><button class="link" data-action="search-all">去今日待判</button></div>';
@@ -12291,8 +12278,8 @@ document.addEventListener('click', function(e){
       title:'数据口径与使用边界',
       body:
         '<div class="contract">' +
-          '<div class="contract__block"><h4>本版本实际运行的是什么</h4><p>单文件前端原型，无后端、无数据库、无真实接口调用。5 份卷宗、25 条证据、18 类来源地址与 2,480 家样本均为本地预置或按规则合成；角色切换为演示用，未接入统一认证。名单跑批、来源同步、预警均为本地模拟，不产生真实外部请求。</p></div>' +
-          '<div class="contract__block"><h4>覆盖多大范围</h4><p>本版本未随包提供官方名单原始数据，20,698 仅为演示设定口径，不能视为已核验的官方数量；本期 2,480 家为本地合成样本，名称、代码与财务数字均不对应真实主体。页面上的“正常/延迟”来源状态是演示状态，未执行真实抓取。</p></div>' +
+          '<div class="contract__block"><h4>本版本实际运行的是什么</h4><p>5 份卷宗、25 条证据、18 类来源地址与演示样本池均为本地预置或按规则合成；角色切换为演示用，未接入统一认证。名单跑批、来源同步、预警均为本地模拟，不产生真实外部请求。</p></div>' +
+          '<div class="contract__block"><h4>覆盖多大范围</h4><p>北京官方公告企业名录以离线缓存 6,190 家为准；本期演示卷宗与样本池为本地预置模拟数据，名称、代码与财务数字均不对应真实主体。页面上的“正常/延迟”来源状态是演示状态，未执行实时抓取。</p></div>' +
           '<div class="contract__block"><h4>哪些可以核对</h4><p>18 类数据源的名称、主管机构与公开地址取自公开信息，可在“数据来源”页逐条查看；评分规则、证据分级、冲突处置、复核留痕与导出文件是真实可运行的产品逻辑，但规则参数尚未完成行内历史样本回测。</p></div>' +
           '<div class="contract__block"><h4>模型验证到哪一步</h4><p>模型只在样本数据上跑通筛选、取证、评分、复核流程，尚未接入行内历史违约样本，因此不宣称 AUC、KS 等验证指标。输出为技术价值参考，不构成授信审批结论。</p></div>' +
           '<div class="contract__block"><h4>证据与复核现状</h4><p>当前卷宗共 ' + COMPANIES.length + ' 份、' + _evTotal + ' 条预置证据；正在查看的“' + esc(_cur.name) + '”有 ' + _cur.evidences.length + ' 条证据、' + _cur.conflicts.length + ' 项冲突、' + (_cur.pendingDims || []).length + ' 个待复核维度。所有名称、代码、财务数字与证据原文均为演示数据，不对应真实企业。</p></div>' +
@@ -12847,12 +12834,17 @@ const loginDefaults = {};
 'use strict';
 function send(type,view){window.parent.postMessage({type:type,view:view},'*')}
 // Capture all old page navigation, so none can open the retired sign-in or old workspace.
+// 体验入口（进入工作台 / 看卷宗 / 各模块直达）以演示身份一键进入；“登录”仍打开登录页。
 document.addEventListener('click',function(e){
   var old=e.target.closest('[data-action="landing-login"],[data-action="landing-try"],[data-action="demo-login"],[data-p86-go]');
   if(!old)return;
   e.preventDefault();e.stopPropagation();e.stopImmediatePropagation();
-  if(old.dataset.p86Go){send('prooftrace-enter',old.dataset.p86Go)}else send('prooftrace-login');
+  var act=old.dataset.action||'';
+  if(old.dataset.p86Go){send('prooftrace-enter',old.dataset.p86Go)}
+  else if(act==='landing-try'||act==='demo-login'){send('prooftrace-enter','queue')}
+  else{send('prooftrace-login')}
 },true);
+window.__p86BridgeReady = true;
 window.addEventListener('message',function(e){
   if(!e.data)return;
   if(e.data.type==='p86-scroll'){var target=document.getElementById(e.data.target);if(target)target.scrollIntoView({behavior:'smooth',block:'start'});return}
