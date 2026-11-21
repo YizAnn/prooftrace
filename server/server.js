@@ -1130,6 +1130,7 @@ function serveStatic(req, res, pathname) {
   let rel = null;
   if (pathname === '/' || pathname === '/index.html') rel = 'index.html';
   else if (pathname === '/home.html') rel = 'home.html';
+  else if (pathname === '/hero_visual.html') rel = 'hero_visual.html';
   else if (/^\/data\/[A-Za-z0-9_.\-]+\.(js|json)$/.test(pathname)) rel = pathname.slice(1);
   else if (pathname === '/favicon.ico') { res.writeHead(204); res.end(); return true; }
   if (!rel) return false;

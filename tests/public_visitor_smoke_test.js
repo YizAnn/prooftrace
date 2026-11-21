@@ -84,6 +84,20 @@ function clearServerModules() {
     assert.strictEqual(home.status, 200);
     assert.ok(/text\/html/.test(home.headers['content-type'] || ''));
 
+    /* P8.6 嵌套首页：/ 与 /index.html 为工作台外壳（内嵌 home.html），/home.html 内嵌 hero_visual.html。 */
+    const indexPage = await request(publicAddr.port, 'GET', '/index.html');
+    assert.strictEqual(indexPage.status, 200);
+    assert.ok(/p8-home-frame/.test(indexPage.body));
+    assert.ok(/home\.html/.test(indexPage.body));
+
+    const landing = await request(publicAddr.port, 'GET', '/home.html');
+    assert.strictEqual(landing.status, 200);
+    assert.ok(/hero_visual\.html/.test(landing.body));
+
+    const hero = await request(publicAddr.port, 'GET', '/hero_visual.html');
+    assert.strictEqual(hero.status, 200);
+    assert.ok(/text\/html/.test(hero.headers['content-type'] || ''));
+
     const stats = await request(publicAddr.port, 'GET', '/api/registry/stats');
     assert.strictEqual(stats.status, 200);
     assert.ok(stats.json.records > 0);

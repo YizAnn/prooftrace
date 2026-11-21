@@ -8564,8 +8564,18 @@ document.addEventListener('change',function(ev){
 });
 
 function p8AfterRender(){document.querySelectorAll('#p8-nav details').forEach(function(d){let on=(' '+d.dataset.views+' ').indexOf(' '+state.view+' ')>=0;d.classList.toggle('is-current',on);d.open=on;});document.querySelectorAll('#p8-nav button[data-view]').forEach(function(b){if(b.dataset.view===state.view)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});if(state.view==='evidence'){p8Graph();p8SetMode(p8EvidenceMode);}p81BootHero();}
-window.addEventListener('message',function(e){const frame=document.getElementById('p8-home-frame');if(!frame||e.source!==frame.contentWindow||!e.data||e.data.type!=='prooftrace-enter')return;
-if(!state.user||!state.user.role){demoLogin();}else showApp();const requested=String(e.data.view||'profile');setView(['registry','queue','profile','ai','evidence','model','rules','export'].includes(requested)?requested:'profile');});
+window.__p86PendingView = null;
+window.addEventListener('message',function(e){
+  const frame=document.getElementById('p8-home-frame');
+  if(!frame||e.source!==frame.contentWindow||!e.data)return;
+  if(e.data.type==='prooftrace-login'){window.__p86PendingView=null;showLogin();return;}
+  if(e.data.type!=='prooftrace-enter')return;
+  const requested=String(e.data.view||'profile');
+  const safe=(['registry','queue','profile','evidence','model','rules','export','ai'].includes(requested)?requested:'profile');
+  if(!state.user||!state.user.role){window.__p86PendingView=safe;showLogin();return;}
+  showApp();setView(safe==='ai'?'profile':safe);
+  if(safe==='ai')try{agentShow(true);}catch(_e){}
+});
 document.addEventListener('click',function(e){const t=e.target.closest('[data-p8],[data-p8-ev]');if(!t)return;
 const a=t.dataset.p8;if(t.dataset.p8Ev){p8SelectedEvidence=t.dataset.p8Ev;p8Graph();return;}
 if(a==='home'){showLanding();return;}if(a==='map'||a==='list'){p8SetMode(a);return;}
@@ -16465,6 +16475,11 @@ function handleLogin(e){
       state.view = 'queue';
     }
     showApp();
+    if(window.__p86PendingView){
+      const requested=window.__p86PendingView;window.__p86PendingView=null;
+      setView(requested==='ai'?'profile':requested);
+      if(requested==='ai')try{agentShow(true);}catch(_e){}
+    }
     toast('身份校验通过　' + role);
   }, 700);
 }
